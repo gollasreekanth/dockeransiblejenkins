@@ -21,8 +21,8 @@
         state: present
     - name: Start the container
       docker_container:
-        name: hariapp
-        image: "sreekanth99490/java_home:{{DOCKER_TAG}}"
+        name: java_home
+        image: "sreekanth99490/java_home
         state: started
         published_ports:
           - 0.0.0.0:8080:8080
